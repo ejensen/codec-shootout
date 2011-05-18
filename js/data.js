@@ -35,12 +35,12 @@ var data = [
 	{
 		Title: "Yeti 0.5",
 		WatchmenSize: 1427,
-		WatchmenFPS: 39.3,
+		WatchmenFPS: 37.6,
 		ToyStorySize: 812,
 		ToyStoryFPS: 64.2,
-		ScreenFPS: 92.5,
+		ScreenFPS: 90.8,
 		ScreenSize: 329,
-		LectureFPS: 418.8,
+		LectureFPS: 413.1,
 		LectureSize: 67
 	},
 	{
