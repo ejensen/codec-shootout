@@ -1,21 +1,44 @@
-body{
+body {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
 	background-image: url(img/bg.jpg);
 	color: #666;
 	margin: 0;
 }
-img{
+img {
 	border: none;
 }
-a:link, a:visited, a:active, a:hover{
+a:link, a:visited, a:active, a:hover {
 	text-decoration: none;
 	border: none;
 }
-
-a:hover{
+a:hover {
 	text-decoration: underline;
 }
-#benchmarkPicker{
+a {
+	color: #666;
+}
+ul {
+	font-size: 0.75em;
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	width: 400px;
+}
+ul > li {
+	margin-left: 0;
+	padding: 0 0.5em;
+	border-right: 1px solid #999;
+	list-style: none;
+	display: inline;
+}
+ul > li:first-child {
+	padding-left: 0;
+}
+ul > li:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+#benchmarkPicker {
 	position: fixed; 
 	top: 0; 
 	right: 0; 
@@ -26,10 +49,37 @@ a:hover{
 	border-color: #DDD; 
 	border-bottom-left-radius: 4px;
 }
-.smallFont{
+.smallFont {
 	font-size: 0.75em;
 }
-#testSpecs{
+#footerWrapper {
+	background-image: url(img/bg2.png);
+	padding: 0.75em 2em;
+	height: 4.25em;
+}
+#footer {
+	height: 100%; 
+	margin:0; 
+	position: relative;
+}
+#mainContent {
+	padding: 2em 1em;
+}
+#container1, #container2 {
+	height: 600px; 
+	float: left; 
+}
+#container1 {
+	width: 49%;
+}
+#container2 {
+	width: 50%;
+}
+#container3 {
+	height: 500px; 
+	clear: both;
+}
+#testSpecs {
 	position: absolute; 
 	right: 0; 
 	bottom: 0;
@@ -38,37 +88,28 @@ a:hover{
 	height: 100%;
 	width: 24%;
 }
-#line{
+#line {
 	background-image: url(img/line.png); 
 	height: 4px;
 }
-#disclaimer{
+#disclaimer {
 	position: absolute; 
 	bottom: 0; 
 	width: 75%;
 	margin: 0;
 }
-a{
-	color: #666;
+#benchmark {
+	margin-right: 0.5em; 
+	vertical-align: middle;
 }
-ul {
-	font-size: 0.75em;
-	margin-left: 0;
-	padding-left: 0;
-	display: inline;
-	width: 400px;
+#benchmarkList {
+	max-width: 800px; 
+	margin: 0 auto;
 }
-ul li {
-	margin-left: 0;
-	padding: 0 0.5em;
-	border-right: 1px solid #999;
-	list-style: none;
-	display: inline;
+#infoButton {
+	vertical-align: middle;
 }
-ul li:first-child {
-	padding-left: 0;
-}
-ul li:last-child {
-	border-right: 0;
-	padding-right: 0;
+#sampleImage {
+	display: block; 
+	margin: auto auto;
 }
