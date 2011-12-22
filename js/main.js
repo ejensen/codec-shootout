@@ -194,11 +194,8 @@
 		updateBenchmark();
 		checkVersion() ;
 		$('#infoButton').fancybox({
-			'transitionIn': 'elastic',
-			'transitionOut': 'none',
-			'hideOnOverlayClick': true,
-			'overlayShow': true,
-			'overlayOpacity': 0.01
+			'openEffect': 'elastic',
+			'closeEffect': 'none'
 		});
 		charts.chart1 = new Highcharts.Chart({
 			chart: {
