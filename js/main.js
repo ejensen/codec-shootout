@@ -52,7 +52,7 @@
 		$('#duration').text(benchmarks[selectedBenchmark].Length);
 		$('#fps').text(benchmarks[selectedBenchmark].FPS);
 		$('#uncompressed').text(Math.round(benchmarks[selectedBenchmark].RawSize / 1024 * 100) / 100);
-		$('#sampleImage').attr('src', 'img/samples/' + selectedBenchmark + '.jpg');
+		$('#sampleImage').attr('src', 'img/samples/' + selectedBenchmark.toLowerCase() + '.jpg');
 		$('ul#frameLinks > li > a').each(function () {
 			$(this).attr('href', 'img/frames/' + selectedBenchmark + '/' + this.title + '.png');
 		});
